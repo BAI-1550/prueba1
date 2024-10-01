@@ -1,0 +1,120 @@
+ body {
+      
+        background-color: #f0f0f0; /* Color de fondo */
+    }
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+
+
+       
+    text-align: center ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 246, 246);
+    
+}
+nav ul{
+    
+
+    color: #f0f0f0;  /* MENU DE SELECIO*/
+    background-color: rgb(14, 13, 13);
+    width: 100;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    
+}
+
+nav ul li {
+    display: inline; /* Elementos en línea */
+    margin-right: 15px; /* Espaciado entre elementos */
+}
+
+nav li{
+    display: inline-flex;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    width: 150px;
+    margin: 15;
+
+}
+nav li:hover{
+    background-color: rgba(19, 178, 241, 0.774);
+
+}
+section{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+image{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+head{
+
+    text-align: center;
+}
+img{
+
+    display: inline; /* Permite que las imágenes estén en línea */
+    margin: 10px; /* Espaciado entre imágenes */
+
+}
+ .dropbtn {
+
+            background-color: #aaa8a871;
+            color: white;
+            padding: 15px 18px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+        
+            
+        }
+        /* Contenedor del menú desplegable */
+        .dropdown {
+            position: relative; /* Necesario para posicionar el menú desplegable */
+            display: inline-block; /* Mostrar en línea */
+        }
+        /* Contenido del menú desplegable */
+        .dropdown-content {
+            display: none; /* Ocultar por defecto */
+            position: absolute; /* Posicionamiento absoluto */
+            background-color: #f7f7f7; /* Fondo del menú */
+            min-width: 160px; /* Ancho mínimo */
+            box-shadow: 0px 8px 16px 0px rgba(2, 2, 2, 0.2); /* Sombra */
+            z-index: 1; /* Z-index para superposición */
+        }
+        /* Estilo de los enlaces del submenú */
+        .dropdown-content a {
+            color: black; /* Color de texto */
+            padding: 12px 16px; /* Espaciado */
+            text-decoration: none; /* Sin subrayado */
+            display: block; /* Mostrar como bloque */
+        }
+        /* Cambiar color de fondo en hover del submenú */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        /* Mostrar el menú desplegable al hacer clic en el botón */
+        .show {
+            display: block; /* Mostrar el submenú */
+        }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HUDSON4</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="icon" width="15px" href="HUDSON4_Store.png">
+</head> 
+
+<h1 > !Bienvenido a Hudson_store! </h1>
+
+<body>
+    
+
+    <header>
+        
+
+    </header>
+
+    <nav  >
+        <ul>
+
+
+            <div class="dropdown">
+                <button class="dropbtn" onclick="toggleDropdown()"     >|||</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="opcion1"> CATALOGO </a>
+                    <a href="opcion2"> CONTACTO </a>
+                    <a href="opcion3">AYUDA </a>
+                </div>
+        
+        <script>
+                // Función para mostrar/ocultar el menú desplegable
+                function toggleDropdown() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+            
+                // Cerrar el menú si se hace clic fuera de él
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        for (var i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+
+
+         <li>ZAPATOS</li>
+         <li>SUETERES</li>
+         <li>CONJUNTOS</li>
+         <li>BERMUDAS</li>
+         <li>ACCESORIOS</li>
+         <li>GORRAS </li>
+
+            
+            
+        </ul>
+    </nav>
+
+
+    </div>
+    
+
+    <main>
+        <section id="inicio">
+            <h2>Lo mejor para lo mejor</h2>
+        
+        </section>
+
+        <section id="catalogo">
+            <ul>
+                <li>
+                    <h3> ZAPATOS </h3>
+
+                    <img  width="200px"  src="zapatos af1 negros.png" alt="Zapatos Dunk">
+                    <img  width="200px"  src="zapatos 4.png" alt="Zapatos af1 negros " >
+                    <img  width="200px"  src="zapotos3.png" alt="Zapatos af1 negros " >
+                    <img  width="200px"  src="zapatos.jpg" alt="Zapatos af1 negros " >
+                    
+                    
+                </li>
+
+
+                <li>
+
+                    <h4> SUETERES  </h4>
+
+
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    
+                   
+
+                </li>
+                <li>
+
+                    <h4> CONJUNTOS </h4>
+
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+
+
+
+
+                </li>
+                <li>
+
+                    <h4> BERMUDAS </h4>
+
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+
+
+
+
+                </li>
+                <li>
+
+                    <h4> ACCESORIOS </h4>
+
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+                    <img  width="200px" src="sueter.jpg" alt="Sueter Nike">
+
+
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
